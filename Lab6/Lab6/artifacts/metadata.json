@@ -1,0 +1,25 @@
+{
+  "feature_columns": [
+    "cylinders",
+    "displacement",
+    "horsepower",
+    "weight",
+    "acceleration",
+    "model_year",
+    "origin"
+  ],
+  "target": "mpg",
+  "weight_unit": "lb",
+  "displacement_unit": "cubic_inch",
+  "model_year_format": "two_digit",
+  "selected_model": "NN_variant",
+  "is_neural_network": true,
+  "model_file": "best_model.keras",
+  "seed": 42,
+  "versions": {
+    "tensorflow": "2.21.0",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0",
+    "pandas": "3.0.6"
+  }
+}
