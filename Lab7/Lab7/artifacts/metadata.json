@@ -1,0 +1,25 @@
+{
+    "class_names": [
+        "Футболка або топ",
+        "Штани",
+        "Светр",
+        "Сукня",
+        "Пальто",
+        "Сандалі",
+        "Сорочка",
+        "Кросівки",
+        "Сумка",
+        "Черевики"
+    ],
+    "input_shape": [
+        28,
+        28
+    ],
+    "dtype": "float32",
+    "input_scale": "0-255 (Rescaling всередині моделі)",
+    "seed": 42,
+    "variant": 2,
+    "selection_criterion": "lowest validation cross-entropy",
+    "tensorflow_version": "2.21.0",
+    "sklearn_version": "1.9.1"
+}
