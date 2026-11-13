@@ -1,0 +1,11 @@
+{
+    "Назва": "Energy Efficiency Dataset",
+    "URL": "https://archive.ics.uci.edu/dataset/242/energy+efficiency",
+    "Автор / Організація": "A. Tsanas, A. Xifara / UCI Machine Learning Repository",
+    "Ліцензія": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "Дата завантаження": "2026-11-08",
+    "Файл / Аркуш": "ENB2012_data.xlsx",
+    "Обсяг": "768 записів, 10-12 колонок",
+    "Значення рядка": "Параметри будівлі та показники її енергоефективності",
+    "Одиниці цілі": "Навантаження на опалення (Heating Load, Y1)"
+}
