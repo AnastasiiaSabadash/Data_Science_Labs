@@ -1,0 +1,43 @@
+{
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "seed": 42,
+  "class_names": [
+    "chocolate_cake",
+    "guacamole",
+    "ramen"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "pixel_range": [
+    0,
+    255
+  ],
+  "backbone": "EfficientNetB0",
+  "weights": "imagenet",
+  "selected_stage": "fine_tuning",
+  "comparison": [
+    {
+      "stage": "feature_extraction",
+      "lr": 0.001,
+      "params": 3843,
+      "epochs": 10,
+      "accuracy": 0.9888888597488403,
+      "loss": 0.04100380837917328
+    },
+    {
+      "stage": "fine_tuning",
+      "lr": 1e-05,
+      "params": 1125427,
+      "epochs": 10,
+      "accuracy": 0.9888888597488403,
+      "loss": 0.03010212816298008
+    }
+  ],
+  "test_metrics": {
+    "accuracy": 0.9946666955947876,
+    "loss": 0.019158797338604927
+  }
+}
